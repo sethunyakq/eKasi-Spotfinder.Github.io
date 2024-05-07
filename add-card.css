@@ -1,0 +1,693 @@
+.credit-card-1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 28px;
+}
+.payment-method {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-family: var(--font-lexend);
+  color: var(--color-darkslategray-300);
+  text-align: left;
+}
+.payment-method-t-e-x-t {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.ad-enim-veniam {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-manrope);
+  color: var(--color-lightslategray);
+  text-align: left;
+}
+.ad-enim-veniam-amet-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.container-129-inner,
+.payment-method-t-e-x-t-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.payment-method-t-e-x-t-parent {
+  width: 197px;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.container-129-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-9xs);
+}
+.ellipse,
+.ellipse1 {
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-500);
+  border: 0 solid var(--color-blueviolet-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.ellipse1 {
+  top: 4.5px;
+  left: 4.5px;
+  background-color: var(--color-blueviolet-200);
+  width: 11px;
+  height: 11px;
+  z-index: 1;
+}
+.ellipse-parent {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.input-code-select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.address-info-container {
+  width: 0;
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.address-info-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.image-117-icon1 {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card-number-input {
+  width: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.image-119-icon1 {
+  width: 43px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image-119-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-6xs) 0 0;
+}
+.image-118-icon {
+  width: 47px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container-1312,
+.image-118-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.container-1312 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-ghostwhite-200);
+  border: 1px solid var(--color-blueviolet-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xs);
+}
+.name-on-card {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  min-width: 93px;
+}
+.billing-info-container,
+.textfield14 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield14 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 35px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  min-width: 183px;
+}
+.billing-info-container {
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.expiration-date,
+.mmyy {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  min-width: 103px;
+}
+.mmyy {
+  color: var(--color-gray-300);
+  min-width: 45px;
+}
+.chevron-down-large3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevron-down-large2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.billing-info-container1,
+.textfield15 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.textfield15 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.billing-info-container1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frame-input17 {
+  margin: 0;
+  height: 19px;
+  width: 16px;
+}
+.use-same-address {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.card-details-container,
+.frame-parent120 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.card-details-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl-7);
+  min-width: 199px;
+}
+.image-containers {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-500);
+  border: 0 solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.country-region-selection-conta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.address-input {
+  width: 0;
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.button-save-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.image-116-icon1 {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.billing-info-display-area,
+.container-130 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.billing-info-display-area {
+  width: 88px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.container-130 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white-200);
+  border: 1px solid var(--color-gainsboro-200);
+  overflow-x: auto;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-6xl);
+  gap: var(--gap-5xs);
+}
+.card-number {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  min-width: 89px;
+}
+.card-number-parent,
+.textfield16 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield16 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 35px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  min-width: 183px;
+}
+.card-number-parent {
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.cvv,
+.enter-cvv {
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  position: relative;
+  line-height: 22px;
+  text-align: left;
+  display: inline-block;
+}
+.cvv {
+  color: var(--color-darkslategray-200);
+  min-width: 28px;
+}
+.enter-cvv {
+  width: 65px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 22px;
+  color: var(--color-silver);
+  padding: 0;
+}
+.c-info-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textfield17,
+.use-same-billing-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.textfield17 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.cvv-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.card-number-c-v-v-container,
+.cvv-parent,
+.image-container2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card-number-c-v-v-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl-5);
+  min-width: 199px;
+}
+.image-container2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xl);
+}
+.address {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  min-width: 56px;
+}
+.country-region-selection-butto,
+.textfield18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield18 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  align-self: stretch;
+  height: 35px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  min-width: 250px;
+}
+.country-region-selection-butto {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.zip-postalcode-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.zippostal-code {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  min-width: 108px;
+}
+.card-number-c-v-v-inputs,
+.textfield19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield19 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  align-self: stretch;
+  height: 35px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  min-width: 183px;
+}
+.card-number-c-v-v-inputs {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  min-width: 198px;
+}
+.countryregion,
+.select-countryregion {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-manrope);
+  text-align: left;
+}
+.countryregion {
+  display: inline-block;
+  color: var(--color-darkslategray-200);
+  min-width: 110px;
+}
+.select-countryregion {
+  color: var(--color-gray-300);
+}
+.chevron-down-large4 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevron-down-large-frame,
+.textfield20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.textfield20 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.card-number-c-v-v-inputs1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  min-width: 198px;
+}
+.card-fields-container,
+.zip-country-select {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.card-fields-container {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.zip-country-select {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-4xs) 0;
+  box-sizing: border-box;
+}
+.save-information {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-manrope);
+  color: var(--color-white-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 125px;
+}
+.button-98-wrapper,
+.button-981 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button-981 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-base);
+  background-color: var(--color-blueviolet-200);
+  box-shadow: 0 0 2px rgba(109, 49, 237, 0.12),
+    0 4px 9px rgba(109, 49, 237, 0.11);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button-981:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.button-98-wrapper {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+}
+.add-card,
+.container-129,
+.screen-19 {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.container-129 {
+  margin: 0;
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.add-card,
+.screen-19 {
+  align-items: flex-start;
+}
+.screen-19 {
+  width: 720px;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: var(--color-whitesmoke-200);
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 0 0 var(--padding-base);
+  max-width: 100%;
+}
+.add-card {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white-200);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-143xl) var(--padding-xl) var(--padding-143xl)
+    var(--padding-16xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 675px) {
+  .container-129 {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-1312 {
+    flex-wrap: wrap;
+  }
+}

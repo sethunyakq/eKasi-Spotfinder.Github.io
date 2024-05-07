@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./user-sign-up.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="user-sign-up">
+      <div class="sign-up2">
+        <form class="container-80">
+          <div class="first-name-input-parent">
+            <div class="first-name-input">
+              <h1 class="sign-up3">Sign up</h1>
+            </div>
+            <div class="email-field">
+              <div class="password-field">
+                <b class="first-name">First name</b>
+                <input
+                  class="textfield10"
+                  placeholder="Input first name"
+                  type="text"
+                />
+              </div>
+              <div class="password-field1">
+                <b class="last-name">Last name</b>
+                <input
+                  class="textfield11"
+                  placeholder="Input last name"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="or-separator">
+            <div class="social-buttons">
+              <b class="email4">Email</b>
+              <input
+                class="textfield12"
+                placeholder="example.email@gmail.com"
+                type="text"
+              />
+
+              <b class="password2">Password</b>
+              <div class="textfield13">
+                <div class="enter-at-least2">Enter at least 8+ characters</div>
+                <div class="apple-auth-btn">
+                  <img class="hide-icon2" alt="" src="./public/hide1.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="login-area-parent">
+              <div class="login-area">
+                <div class="form-footer-wrapper">
+                  <input class="form-footer" checked="{true}" type="checkbox" />
+                </div>
+                <div class="by-signing-up-container1">
+                  <span class="by-signing-up1"
+                    >By signing up, I agree with the
+                  </span>
+                  <span class="terms-of-use1">Terms of Use</span>
+                  <span class="span4"> </span>
+                  <span class="span5">&</span>
+                  <span class="span6"> </span>
+                  <span class="privacy-policy1">Privacy Policy</span>
+                </div>
+              </div>
+              <div class="text-wrapper8">
+                <div class="text25"></div>
+              </div>
+            </div>
+            <button class="button-401" id="button40">
+              <div class="sign-up4">Sign up</div>
+            </button>
+            <div class="social-logos">
+              <div class="already-have-an-container">
+                <span class="already-have-an1">Already have an account? </span>
+                <span class="log-in">Log in</span>
+              </div>
+            </div>
+            <div class="facebook-logo">
+              <div class="apple-logo">
+                <img
+                  class="apple-logo-child"
+                  loading="lazy"
+                  alt=""
+                  src="./public/line-33.svg"
+                />
+              </div>
+              <div class="or1">OR</div>
+              <div class="apple-logo1">
+                <img
+                  class="apple-logo-item"
+                  loading="lazy"
+                  alt=""
+                  src="./public/line-33.svg"
+                />
+              </div>
+            </div>
+            <div class="input-fields-container">
+              <div class="name-and-email-container">
+                <button class="button-371">
+                  <div class="terms-container">
+                    <img
+                      class="google-icon2"
+                      alt=""
+                      src="./public/google1.svg"
+                    />
+                  </div>
+                  <div class="social-auth-container"></div>
+                </button>
+                <button class="button-381">
+                  <div class="logo-facebook-frame">
+                    <img
+                      class="logo-facebook-icon2"
+                      alt=""
+                      src="./public/logo-facebook1.svg"
+                    />
+                  </div>
+                  <div class="text26"></div>
+                </button>
+                <button class="button-39">
+                  <div class="text-wrapper9">
+                    <div class="text27"></div>
+                  </div>
+                  <img class="apple-icon2" alt="" src="./public/apple1.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var button40 = document.getElementById("button40");
+      if (button40) {
+        button40.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+      </script>
+  </body>
+</html>

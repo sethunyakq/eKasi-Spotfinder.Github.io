@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./create-account.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="create-account">
+      <section class="section">
+        <div class="inner">
+          <div class="facebook-auth-btn-parent">
+            <div class="facebook-auth-btn">
+              <div class="frame-div">
+                <div class="pin-3-1-wrapper">
+                  <img
+                    class="pin-3-14"
+                    loading="lazy"
+                    alt=""
+                    src="./public/pin-3-12.svg"
+                  />
+                </div>
+                <div class="ekasi-spotfinder-container">
+                  <i class="ekasi-spotfinder3">
+                    <span>eKasi Spot</span>
+                    <span class="finder5">finder</span>
+                  </i>
+                </div>
+              </div>
+              <div class="sign-up-button-wrapper">
+                <div class="sign-up-button">
+                  <div class="already-have-an">Already have an account?</div>
+                  <div class="sign-in" id="signInText">Sign in</div>
+                </div>
+              </div>
+            </div>
+            <div class="or-label-wrapper">
+              <div class="or-label">
+                <div class="create-an-account-wrapper">
+                  <h1 class="create-an-account">Create an account</h1>
+                </div>
+                <div class="or-label-inner">
+                  <div class="textbox-64-parent">
+                    <div class="textbox-64">
+                      <b class="full-name">Full name</b>
+                      <input
+                        class="john-doe"
+                        placeholder="John Doe"
+                        type="text"
+                      />
+                    </div>
+                    <div class="textbox-63">
+                      <b class="email">Email</b>
+                      <input
+                        class="exampleemailgmailcom"
+                        placeholder="example.email@gmail.com"
+                        type="text"
+                      />
+                    </div>
+                    <div class="textbox-62">
+                      <b class="password">Password</b>
+                      <div class="enter-at-least-8-characters-parent">
+                        <div class="enter-at-least">
+                          Enter at least 8+ characters
+                        </div>
+                        <div class="hide-wrapper">
+                          <img
+                            class="hide-icon"
+                            loading="lazy"
+                            alt=""
+                            src="./public/hide.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="button-141" id="button141">
+                  <div class="sign-up1">Sign up</div>
+                </button>
+                <div class="button">
+                  <div class="frame-parent1">
+                    <div class="or-sign-up-with-wrapper">
+                      <div class="or-sign-up">Or sign up with</div>
+                    </div>
+                    <div class="button-144-parent">
+                      <button class="button-144">
+                        <div class="button1">
+                          <div class="text2"></div>
+                        </div>
+                        <img
+                          class="google-icon"
+                          alt=""
+                          src="./public/google.svg"
+                        />
+                      </button>
+                      <button class="button-142">
+                        <div class="logo-facebook-wrapper">
+                          <img
+                            class="logo-facebook-icon"
+                            alt=""
+                            src="./public/logo-facebook.svg"
+                          />
+                        </div>
+                        <div class="text3"></div>
+                      </button>
+                      <div class="button-143">
+                        <div class="apple-wrapper">
+                          <img
+                            class="apple-icon"
+                            alt=""
+                            src="./public/apple.svg"
+                          />
+                        </div>
+                        <div class="text4"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="by-signing-up-you-agree-with-wrapper">
+              <div class="by-signing-up-container">
+                <p class="by-signing-up">By signing up, you agree with the</p>
+                <p class="terms-of-use-privacy-policy">
+                  <span class="terms-of-use">Terms of Use</span> &
+                  <span class="privacy-policy">Privacy Policy</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-170">
+          <img
+            class="image-133-icon"
+            loading="lazy"
+            alt=""
+            src="./public/image-133.svg"
+          />
+
+          <div class="container-170-inner">
+            <div class="welcome-to-ekasi-spotfinder-parent">
+              <h2 class="welcome-to-ekasi2">Welcome to Ekasi Spotfinder</h2>
+              <div class="discover-local-hotspots-here-wrapper">
+                <div class="discover-local-hotspots2">
+                  Discover local hotspots here!!!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var signInText = document.getElementById("signInText");
+      if (signInText) {
+        signInText.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+      
+      var button141 = document.getElementById("button141");
+      if (button141) {
+        button141.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+      </script>
+  </body>
+</html>
